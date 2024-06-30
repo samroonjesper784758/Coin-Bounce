@@ -1,1 +1,56 @@
+# Ignore node_modules directory
 node_modules/
+
+# Ignore environment configuration files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS and IDE generated files
+.DS_Store
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore any build output
+/build/
+
+# Ignore any deployment scripts or configuration
+/deploy/
+
+# Ignore any local development files
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Ignore any editor backup files
+*~
+
+# Ignore any runtime data
+*.sqlite
+
+# Ignore any dependency directories or files
+/.cache/
+/.npm/
+/.bower/
+/bower_components/
+/vendor/
+
+# Ignore any compiled files or binaries
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore any archives and binaries (very common for binary repositories such as NuGet)
+*.zip
