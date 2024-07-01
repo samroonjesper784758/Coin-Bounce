@@ -1,9 +1,12 @@
 const express = require("express");
+const dbconnect = require("./database/index");
+const { PORT } = require("./config/index");
 const app = express();
-const PORT = 5000;
+
+dbconnect();
 
 app.get("/", (req, res) => {
-  res.json({ msg: "Hello World!" });    
+  res.json({ msg: "Hello World!" });
 });
 
 app.listen(PORT, () => {
